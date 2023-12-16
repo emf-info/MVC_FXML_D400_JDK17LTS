@@ -17,12 +17,12 @@ Par défaut **ce template utilise la version pour PC/i64**.
 
 VSC est malin et charge automatiquement les librairies du dossier `/lib`. Donc coder sur un PC puis passer ensuite un moment sur un Mac est chose facile : il suffit de copier la bonne version de JavaFX du dossier `/libfx` dans `/lib` pour fonctionner de manière transparente. Et ça roule !
 
-Par exemple, si l'on souhaite développer sur PC, c'est aussi simple que de copier le dossier `openjfx_17_0_7_windows_x64` du dossier `/libfx` dans `/lib` (et d'y enlever la version précédemment utilisée). C'est tout 8-).
+Par exemple, si l'on souhaite développer sur PC, c'est aussi simple que de copier le dossier `openjfx_17_0_8_windows_x64` du dossier `/libfx` dans `/lib` (et d'y enlever la version précédemment utilisée). C'est tout 8-).
 
 ### Versions de JavaFX présentes ?
 | Version | Plateforme | Architecture | Dossier à copier dans `/lib` | Commentaires |
 | :---- | :---- | :---- | :---- | :---- |
-| 17.0.7 | PC | i64 | `openjfx_17_0_7_windows_x64` | Déjà présent dans `/lib` par défaut |
+| 17.0.7 | PC | i64 | `openjfx_17_0_8_windows_x64` | Déjà présent dans `/lib` par défaut |
 | 17.0.7 | Mac | i64 | `openjfx_17_0_7_osx_x64` | |
 | 17.0.7 | Mac | aarch64 (M1 ou M2) | `openjfx_17_0_7_osx_aarch64` | |
 
