@@ -17,7 +17,8 @@ Thumbs.db
 ######################
 /web-app/WEB-INF
 build/
- 
+/bin
+
 ######################
 # Other source repo  #
 ######################
