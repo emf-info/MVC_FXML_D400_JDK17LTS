@@ -38,6 +38,7 @@ Si dans votre projet vous n'avez pas utilité d'avoir plusieurs versions de Java
 Voici une vue d'ensemble du contenu de ce projet sous forme de diagramme UML en utilisant la notation `mermaid` (qui génère des diagrammes à la volée, dynamiquement).
 
 ### Les packages utilisés
+S'affiche correctement sous VSC mais pas encore correctement sur GitHub qui n'a pas encore mis à jour sa version de `mermaid`...
 
 ```mermaid
 classDiagram
