@@ -30,9 +30,14 @@ Par exemple, si l'on souhaite développer sur PC, c'est aussi simple que de copi
 Si dans votre projet vous n'avez pas utilité d'avoir plusieurs versions de JavaFX, ne conservez que la version souhaitée dans votre dossier `/lib` et supprimez simplement l'ensemble du dossier `/libfx`. Vous gagnerez environ 3 x ~80MB.
 
 ## Vue d'ensemble UML du projet
-Voici une vue d'ensemble du contenu de ce projet sous forme de diagramme UML en utilisation la notation `mermaid` (qui génère des diagrammes à la volée, dynamiquement).
+### Détail des classes du projet - avec Entreprise Architect
 
-### Détail des classes du projet - packages utilisés
+<img src="uml/MVC_FXML_D400_JDK17LTS.png" />
+
+### Détail des classes du projet - avec `mermaid`
+Voici une vue d'ensemble du contenu de ce projet sous forme de diagramme UML en utilisant la notation `mermaid` (qui génère des diagrammes à la volée, dynamiquement).
+
+### Les packages utilisés
 
 ```mermaid
 classDiagram
@@ -54,7 +59,7 @@ namespace services {
     class ServiceMeteo
 }
 ```
-### Détail des classes du projet - toutes les classes sur un schéma
+### Détail des classes du projet
 ```mermaid
 classDiagram
 
