@@ -59,6 +59,12 @@ namespace services {
     class ServiceLocation
     class ServiceMeteo
 }
+style View fill:#ff9,stroke:#000,stroke-width:2px
+style Controller fill:#9f9,stroke:#000,stroke-width:2px
+style ServiceMeteo fill:#9ff,stroke:#000,stroke-width:2px
+style ServiceLocation fill:#9ff,stroke:#000,stroke-width:2px
+style Voiture fill:#f99,stroke:#000,stroke-width:2px
+style PrevisionMeteo fill:#f99,stroke:#000,stroke-width:2px
 ```
 ### Détail des classes du projet
 ```mermaid
@@ -142,5 +148,11 @@ classDiagram
     ServiceMeteo ..> PrevisionMeteo : "utilise"
     Application ..> Controller : "utilise"
 
+    style View fill:#ff9,stroke:#000,stroke-width:2px
+    style Controller fill:#9f9,stroke:#000,stroke-width:2px
+    style ServiceMeteo fill:#9ff,stroke:#000,stroke-width:2px
+    style ServiceLocation fill:#9ff,stroke:#000,stroke-width:2px
+    style Voiture fill:#f99,stroke:#000,stroke-width:2px
+    style PrevisionMeteo fill:#f99,stroke:#000,stroke-width:2px
 
 ```
