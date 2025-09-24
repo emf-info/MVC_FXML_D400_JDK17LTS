@@ -59,13 +59,14 @@ namespace services {
     class ServiceLocation
     class ServiceMeteo
 }
-style Application fill:#ddd,stroke:#000,stroke-width:2px
-style View fill:#ff9,stroke:#000,stroke-width:2px
-style Controller fill:#9f9,stroke:#000,stroke-width:2px
-style ServiceMeteo fill:#9ff,stroke:#000,stroke-width:2px
-style ServiceLocation fill:#9ff,stroke:#000,stroke-width:2px
-style Voiture fill:#f99,stroke:#000,stroke-width:2px
-style PrevisionMeteo fill:#f99,stroke:#000,stroke-width:2px
+    style View fill:#ffffcc,stroke:#000,stroke-width:1px
+    style Controller fill:#ccffcc,stroke:#000,stroke-width:1px
+    style ServiceMeteo fill:#ccffff,stroke:#000,stroke-width:1px
+    style ServiceLocation fill:#ccffff,stroke:#000,stroke-width:1px
+    style PrevisionMeteo fill:#ffccff,stroke:#000,stroke-width:1px
+    style Voiture fill:#ffccff,stroke:#000,stroke-width:1px
+    style Application fill:#eeeeee,stroke:#000,stroke-width:1px
+
 ```
 ### Détail des classes du projet
 ```mermaid
@@ -149,13 +150,13 @@ classDiagram
     ServiceMeteo ..> PrevisionMeteo : "utilise"
     Application ..> Controller : "utilise"
 
-    style Application fill:#ddd,stroke:#000,stroke-width:2px
-    style Initializable fill:#ddd,stroke:#000,stroke-width:2px
-    style View fill:#ff9,stroke:#000,stroke-width:2px
-    style Controller fill:#9f9,stroke:#000,stroke-width:2px
-    style ServiceMeteo fill:#9ff,stroke:#000,stroke-width:2px
-    style ServiceLocation fill:#9ff,stroke:#000,stroke-width:2px
-    style Voiture fill:#f99,stroke:#000,stroke-width:2px
-    style PrevisionMeteo fill:#f99,stroke:#000,stroke-width:2px
+    style View fill:#ffffcc,stroke:#000,stroke-width:1px
+    style Controller fill:#ccffcc,stroke:#000,stroke-width:1px
+    style ServiceMeteo fill:#ccffff,stroke:#000,stroke-width:1px
+    style ServiceLocation fill:#ccffff,stroke:#000,stroke-width:1px
+    style PrevisionMeteo fill:#ffccff,stroke:#000,stroke-width:1px
+    style Voiture fill:#ffccff,stroke:#000,stroke-width:1px
+    style Application fill:#eeeeee,stroke:#000,stroke-width:1px
+
 
 ```
